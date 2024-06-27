@@ -121,10 +121,10 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Ente Cloud Network`,
     },
     prism: {
-      theme: prismThemes.github,
+      theme: prismThemes.dracula,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
