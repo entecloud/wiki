@@ -1,0 +1,10 @@
+{
+  "name": "@entecloud/wiki",
+  "version": "0.0.1",
+  "description": "Contains the entire wiki aquired over time",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "HomelabX<140975542+homelabX@users.noreply.github.com>",
+  "license": "MIT"
+}
