@@ -1,10 +1,12 @@
+---
+slug: sway-on-nix-os
+title: Install Sway on Nix OS
+authors: [giri]
+tags: [sway, nixos]
+---
 # Configuring Sway in NixOS (using Home Manager)
 
 At the time of writing writing this, the NixOS wiki was some kind of tricky and was outdated. So I had to install and configure sway by trial and error. Can't lie, it did take few "rebuilds" to get everything working (fonts was the main pain).
-
-## Sway Up and Running
-
-First, let's install the sway via home-manager
 
 ### Prerequisites (Fonts)
 
