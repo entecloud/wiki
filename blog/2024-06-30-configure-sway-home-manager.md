@@ -28,8 +28,11 @@ security.polkit.enable = true;
 
 I added `noto-fonts` for wider Serif support and `liberation_ttf` as that was one of the fonts got installed by default if we try to install sway via NixOS configuration.
 
-> [!NOTE]
-> Ideally, managing the fonts via `home-manager` should also work via `fonts.fontconfig.enable` option. But it didn't work for me at the first time, so that's why I went with the NixOS configuration. 
+:::note
+
+Ideally, managing the fonts via `home-manager` should also work via `fonts.fontconfig.enable` option. But it didn't work for me at the first time, so that's why I went with the NixOS configuration. 
+
+:::
 
 
 ### Install
@@ -51,10 +54,12 @@ home.packages = with pkgs; [
   wmenu # Run
 ];
 ```
-> [!NOTE]
-> **Sway External Configuration**
-> If you look at the definition, you'll notice that I'm setting `config` to `null` and passing all the config as a normal sway.config file via `extraConfig` as opposed to "NixOS" convention. As much as I love the "NixOS" way, I had to write the dotfiles as nix-independant so that I can reuse the same config through other sytems (especially at workplace). 
-> Also, I'm a distro-hopper, so can't stick config files to nix.
+:::note[Sway External Configuration]
+
+If you look at the definition, you'll notice that I'm setting `config` to `null` and passing all the config as a normal sway.config file via `extraConfig` as opposed to "NixOS" convention. As much as I love the "NixOS" way, I had to write the dotfiles as nix-independant so that I can reuse the same config through other sytems (especially at workplace). 
+Also, I'm a distro-hopper, so can't stick config files to nix.
+
+:::
 
 Now execute:
 
