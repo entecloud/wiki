@@ -48,9 +48,9 @@ PGP has mainly four functions.
 - Certifying  
 - Encrypting  
 
-**Signing and Authentication are fungible**[^1], which means it doesn't matter which key is used for the operation. We can interchange the key as long as it share the same primary key. Because of this, **we should generate new subkeys** for the specified purposes on **each device** you have. You don't need to keep copies of the keys across machines as they are replaceable because it has the same parent primary key. So ideally, if you stop using an old device, **revoke** it accordingly.
+**Signing and Authentication are fungible**, which means it doesn't matter which key is used for the operation. We can interchange the key as long as it share the same primary key. Because of this, **we should generate new subkeys** for the specified purposes on **each device** you have. You don't need to keep copies of the keys across machines as they are replaceable because it has the same parent primary key. So ideally, if you stop using an old device, **revoke** it accordingly.
 
-Now for the other two functions, **Certifying and Encrypting are not fungible**[^1]. We've to use the exact key for the operation and can't be replaced with any of the subkeys. Treat this keys as **most important and sensitive**. These keys have to be shared across devices, and should be locked with strong passphrases. 
+Now for the other two functions, **Certifying and Encrypting are not fungible**. We've to use the exact key for the operation and can't be replaced with any of the subkeys. Treat this keys as **most important and sensitive**. These keys have to be shared across devices, and should be locked with strong passphrases. 
 
 ## Managing Keys  
 
@@ -124,5 +124,5 @@ Thanks for spending nearly 6 minutes to read this article. I seriously hope this
 Bye!
 
 
-
-[^1]: [Fungible ADJ](https://www.dictionary.com/browse/fungible)
+**References**  
+- [Fungible ADJ](https://www.dictionary.com/browse/fungible)
