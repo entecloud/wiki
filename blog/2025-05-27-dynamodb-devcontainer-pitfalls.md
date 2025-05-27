@@ -78,10 +78,13 @@ This is a bery basic devcontainer. There's a LOT you can configure. But to keep 
 
 That's it!. Now when you open this folder in VSCode, you'll see a small pop up at the bottom right asking to Re-Open the workspace in DevContainers. Click Open, and wait for few minutes to get the containers up and running.  
 
->[!WARNING]
-> Since the `docker` runs on `root`, you've to **make sure the mounting volume path (here, it's the `.devcontainer/data/dynamodb`) is created first before we boot the containers**. Otherwise it'll be created under `root` and since the DynamoDB container runs on a normal user `dynamodblocal` it won't have RW access to that path causing unexpected errors. I learnt this in the hard way, almost spent two days to figure out what was going on.
->
-> You can leverage the `initializeCommand` option in `devcontainer.json` to create the folder. So that no one forgets.
+:::warning[READ THIS BEFORE BOOTING DEVCONTAINER]
+
+Since the `docker` runs on `root`, you've to **make sure the mounting volume path (here, it's the `.devcontainer/data/dynamodb`) is created first before we boot the containers**. Otherwise it'll be created under `root` and since the DynamoDB container runs on a normal user `dynamodblocal` it won't have RW access to that path causing unexpected errors. I learnt this in the hard way, almost spent two days to figure out what was going on.
+
+You can leverage the `initializeCommand` option in `devcontainer.json` to create the folder. So that no one forgets.
+
+:::
 
 ## Connecting to Local Instance  
 
