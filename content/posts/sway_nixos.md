@@ -1,6 +1,5 @@
 ---
-date: "2025-06-17T10:24:24+05:30"
-draft: true
+date: 2024-06-30T09:25:00+05:30
 title: Install Sway on Nix OS
 ---
 
@@ -12,7 +11,7 @@ At the time of writing writing this, the NixOS wiki was some kind of tricky and 
 
 By default, Sway tries to find a monospace font (DejaVu) to render. If you haven't installed it, we need to install that first through NixOS configuration.
 
-```nix title=configuration.nix
+```nix {title = "configuration.nix" lineNos=inline}
 fonts.packages = with pkgs; [
   dejavu_fonts.fll-ttf
   liberation_ttf
