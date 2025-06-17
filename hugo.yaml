@@ -1,0 +1,21 @@
+baseURL: https://entecloud.github.io/
+languageCode: en-us
+title: EnteCloud Wiki
+theme: "PaperMod"
+
+params:
+  description: Some
+  author: Giri
+  showReadingTime: true
+  showToc: true
+
+  # profileMode:
+  #   enabled: true
+  #   title: EnteCloud
+  #   buttons:
+  #     - name: Archives
+  #       url: archives
+
+caches:  
+  images:  
+    dir: :cacheDir/images  
