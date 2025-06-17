@@ -9,9 +9,14 @@ params:
   showReadingTime: true
   showToc: true
 
-  profileMode:
-    enabled: true
-    title: EnteCloud
-    buttons:
-      - name: Archives
-        url: archives
+  # profileMode:
+  #   enabled: true
+  #   title: EnteCloud
+  #   buttons:
+  #     - name: Archives
+  #       url: archives
+
+caches:  
+  images:  
+    dir: cacheDir/images  
+    
