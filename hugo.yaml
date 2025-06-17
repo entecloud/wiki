@@ -9,13 +9,16 @@ params:
   showReadingTime: true
   showToc: true
 
-  # profileMode:
-  #   enabled: true
-  #   title: EnteCloud
-  #   buttons:
-  #     - name: Archives
-  #       url: archives
+  profileMode:
+    enabled: true
+    title: EnteCloud
+    subtitle: All the learnings I did
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
 
-caches:  
-  images:  
-    dir: :cacheDir/images  
+caches:
+  images:
+    dir: :cacheDir/images

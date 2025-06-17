@@ -1,6 +1,7 @@
 ---
 date: 2025-05-27T14:25:00+05:30
 title: Handle GPG keys properly
+tags: [gpg, security]
 ---
 
 Ever stuck in a dilemma of how to manage GPG keys? Let's dive right in.

@@ -1,6 +1,6 @@
 ---
 title: Generate GPG keys 
-authors: [giri]  
+date: 2024-07-09T12:15:00+05:30
 description: A tiny hand guide to create GPG keys  
 slug: create-gpg-keys  
 tags: [security, gpg, linux]
@@ -12,7 +12,7 @@ Let's generate a proper key this time.
 
 ## Proposed Setup  
 
-The entire setup is done keeping some [principles we discussed over here](../2024-07-05-handling-gpg-keys.md)
+The entire setup is done keeping some [principles we discussed over here](../gpg_keys_handle)
 
 - GnuPG v>=2.4.5
 - Single primary capable of [C]ertify (which will be taken offline after creation)
