@@ -3,7 +3,7 @@ name: Deploy EnteCloud Wiki
 on:
   push:
     branches:
-      - cleanup
+      - master
 
   workflow_dispatch:
 
