@@ -52,7 +52,7 @@ Notice the last one, which is our root partition will be using a mapper, not the
 Now, unmnount all `/target` points.
 
 ```bash
-umount /target/boot/efi`
+umount /target/boot/efi
 umount /target/boot/
 umount /target
 ```
